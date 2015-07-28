@@ -1,13 +1,11 @@
 {
-  "name": "html-mint",
+  "name": "mint-wordpress",
   "version": "1.0.0",
-  "description": "html theme for blogger",
-  "main": "assets/",
+  "description": "WordPress theme for blogger",
   "scripts": {
-    "test": "echo a"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "thanh4890",
+  "license": "GPL",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-less": "^3.0.3",

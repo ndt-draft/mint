@@ -1,17 +1,73 @@
-@import "inc/variables.less";
-@import "inc/mixins.less";
-@import "inc/normalize.less";
-@import "inc/grid.less";
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "variables/variables.less";
+@import "mixins/mixins.less";
 
-.boxed {
-	background-color: @background-color;
-}
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize.less";
 
-.boxed .container {
-	background-color: @content-background-color;
-}
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography.less";
 
-.boxed .site {
-	width: 960px;
-	margin: 30px auto;
-}
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements.less";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms.less";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation.less";
+
+/*--------------------------------------------------------------
+# Modules
+--------------------------------------------------------------*/
+@import "modules/alignments.less";
+@import "modules/clearings.less";
+@import "modules/display.less";
+@import "modules/utils.less";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site.less";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media.less";
