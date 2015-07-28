@@ -1,0 +1,17 @@
+{
+  "name": "html-mint",
+  "version": "1.0.0",
+  "description": "html theme for blogger",
+  "main": "assets/",
+  "scripts": {
+    "test": "echo a"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.4"
+  }
+}
