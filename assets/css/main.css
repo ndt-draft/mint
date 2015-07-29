@@ -561,11 +561,14 @@ a:active {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
+.clear:before,
+.clear:after,
 .clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
 }
+.clear:after,
 .clearfix:after {
   clear: both;
 }
